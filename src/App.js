@@ -30,25 +30,29 @@ function App() {
             <Project />
             <hr />
             <Contact />
+            <Footer />
           </Route>
 
           {/* About  */}
           <Route exact path="/About">
             <About />
+            <Footer />
             <hr />
           </Route>
 
           {/* project  */}
           <Route exact path="/Project">
             <Project />
+            <Footer />
           </Route>
 
           {/* contact  */}
           <Route exact path="/Contact">
             <Contact />
+            <Footer />
           </Route>
         </Switch>
-        <Footer />
+        {/* <Footer /> */}
       </div>
     </Router>
   );

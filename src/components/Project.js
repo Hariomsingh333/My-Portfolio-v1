@@ -61,7 +61,10 @@ const Project = () => {
               </div>
             </div>
             <div class="carousel-item">
-              <a href="https://hariomsingh333.github.io/yt-demo/">
+              <a
+                href="https://hariomsingh333.github.io/yt-demo/"
+                target="_blank"
+              >
                 <img
                   src={img2}
                   class="d-block w-100"
@@ -77,7 +80,10 @@ const Project = () => {
               </a>
             </div>
             <div class="carousel-item">
-              <a href="https://hariomsingh333.github.io/musical-band/">
+              <a
+                href="https://hariomsingh333.github.io/musical-band/"
+                target="_blank"
+              >
                 <img src={img3} class="d-block w-100" alt="Musical Band game" />
                 <div class="carousel-caption d-none d-md-block text-dark">
                   <h2>This is a Musical Band game</h2>
