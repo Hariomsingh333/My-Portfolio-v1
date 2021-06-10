@@ -8,7 +8,7 @@ const Header = () => {
         <div className="row">
           <div className="col-lg-6 coltxt">
             <h1>Hey there!. i am, hari om singh</h1>
-            <a href="" className="headerlink">
+            <a href="/Contact" className="headerlink">
               contact me
             </a>
           </div>
@@ -21,6 +21,8 @@ const Header = () => {
             className="typedtxt"
             strings={[
               "Web Developer",
+              "Front-end++",
+              "Back-end+",
               "A student",
               "Web designer",
               "JavaScript is love",

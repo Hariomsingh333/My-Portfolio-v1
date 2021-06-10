@@ -5,6 +5,9 @@ body {
   font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
 }
+html {
+  scroll-behavior: smooth;
+}
 /************************ navbar link *********************/
 .nav-link {
   text-transform: capitalize;
@@ -238,4 +241,73 @@ nav img {
   justify-content: center;
   align-items: center;
   margin: 3rem;
+}
+/* contact  */
+.cRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  font-size: 1rem;
+  margin: 0 auto;
+}
+@media screen and (max-width: 786px) {
+  .c-name {
+    padding: 1rem;
+    margin: 0 auto;
+  }
+  .c-text {
+    /* display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    margin: 0 auto; */
+  }
+}
+
+.c-name {
+  padding: 1rem;
+  margin: 0 auto;
+}
+.c-email {
+  padding: 1rem;
+  margin: 0 auto;
+}
+
+#name:hover {
+  box-shadow: 12px 12px 12px 0px gray;
+  transition: 1s;
+}
+#email:hover {
+  box-shadow: 12px 12px 12px 0px gray;
+  transition: 1s;
+}
+#text:hover {
+  box-shadow: 12px 12px 12px 0px gray;
+  transition: 1s;
+}
+.c-submit {
+  padding: 1rem 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: rgb(238, 236, 234);
+}
+.c-reset {
+  padding: 1rem 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  background-color: black;
+  color: rgb(238, 236, 234);
+}
+.c-submit:hover {
+  color: white;
+  box-shadow: 12px 12px 12px 0px gray;
+  transition: 1s;
+}
+.c-reset:hover,
+.c-reset:active {
+  color: white;
+  box-shadow: 12px 12px 12px 0px gray;
+  transition: 1s;
 }

@@ -9,32 +9,46 @@ import Contact from "./components/Contact";
 
 // react router dom
 
-import React from "react";
+// import React from "react";
 import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <Router>
       <div className="App">
+        <Navbar />
         <Switch>
           <Route exact path="/">
-            <Navbar />
             <Header />
             <HeaderCard />
             <hr />
+            <About />
+            <hr />
+            <Skill />
+            <hr />
+            <Project />
+            <hr />
+            <Contact />
           </Route>
 
+          {/* About  */}
           <Route exact path="/About">
-            {/* <About /> */}
             <About />
             <hr />
           </Route>
-          <Skill />
-          <hr />
-          <Project />
-          <hr />
-          <Contact />
+
+          {/* project  */}
+          <Route exact path="/Project">
+            <Project />
+          </Route>
+
+          {/* contact  */}
+          <Route exact path="/Contact">
+            <Contact />
+          </Route>
         </Switch>
+        <Footer />
       </div>
     </Router>
   );
