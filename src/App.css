@@ -1,0 +1,235 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&display=swap");
+
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif;
+  text-transform: capitalize;
+}
+/************************ navbar link *********************/
+.nav-link {
+  text-transform: capitalize;
+  letter-spacing: 0.2rem;
+  margin-right: 1.5rem;
+  padding: 1rem;
+}
+
+/*********************** nav logo*****************************/
+nav img {
+  width: 3rem;
+  height: 3rem;
+  border: 0.2rem solid white;
+  border-radius: 50%;
+  margin: 0.2rem;
+  margin-left: 2rem;
+}
+
+/***************** nav media ***************/
+
+@media screen and (max-width: 968px) {
+  nav img {
+    margin-right: 1.5rem;
+  }
+}
+
+/**************************************************header********************************/
+
+.coltxt {
+  padding: 2rem;
+  width: 40%;
+  margin-top: 5rem;
+  letter-spacing: 0.2rem;
+}
+
+.headerlink {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.headerlink:hover {
+  color: white;
+}
+
+.myImg {
+  width: 20rem;
+  height: 20rem;
+  display: flex;
+  margin-left: 14rem;
+  margin-top: 2rem;
+  border-radius: 50%;
+  border: rgb(204, 229, 233) 1rem solid;
+}
+.typedtxt {
+  font-size: 3rem;
+  display: flex;
+  margin-left: 2rem;
+}
+
+@media screen and (max-width: 968px) {
+  .coltxt {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+    width: 60%;
+  }
+  .myImg {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    width: 15rem;
+    height: 15rem;
+  }
+  .typedtxt {
+    display: flex;
+    text-align: center;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (width: 768px) {
+  .typedtxt {
+    margin-left: 10rem;
+  }
+}
+
+/**********************HeaderCard*************************************/
+
+.header {
+  width: 18rem;
+  padding: 2rem;
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 968px) {
+  .header {
+    margin: 0 auto;
+  }
+}
+
+/****************************about*********************************************/
+
+.aimg {
+  width: 12rem;
+  height: 12rem;
+  border: 0.5rem rgb(164, 237, 250) inset;
+  border-radius: 2rem;
+  margin: 2rem;
+}
+.atxt {
+  margin-top: 2rem;
+}
+
+@media screen and (max-width: 968px) {
+  .aimg {
+    margin: 0 auto;
+  }
+
+  .atxt {
+    margin: 0 auto;
+    padding-top: 2rem;
+  }
+}
+
+/*************************************** Skill ************************************/
+/* .card-body{
+  padding: 1rem;
+} */
+.skill {
+  padding: 1rem;
+  font-size: 4rem;
+}
+
+.html {
+  font-size: 10rem;
+  color: rgb(233, 98, 40);
+  /* margin: 0 auto; */
+  transition: 1s;
+}
+
+.html:hover {
+  font-size: 11rem;
+}
+
+.css {
+  font-size: 10rem;
+  color: rgb(0, 81, 232);
+  transition: 1s;
+}
+
+.css:hover {
+  font-size: 11rem;
+}
+
+.javascript {
+  font-size: 10rem;
+  color: rgb(239, 216, 29);
+  transition: 1s;
+}
+
+.javascript:hover {
+  font-size: 11rem;
+}
+
+.bootstrap {
+  font-size: 10rem;
+  color: rgb(123, 18, 248);
+  transition: 1s;
+}
+
+.bootstrap:hover {
+  font-size: 11rem;
+}
+.jquery {
+  width: 10rem;
+  transition: 1s;
+  margin: 1rem;
+}
+.jquery:hover {
+  width: 11rem;
+}
+.react {
+  font-size: 10rem;
+  color: rgb(94, 211, 243);
+  transition: 1s;
+}
+
+.react:hover {
+  font-size: 11rem;
+}
+
+.node {
+  font-size: 10rem;
+  color: rgb(111, 166, 97);
+  transition: 1s;
+}
+.node:hover{
+  font-size: 11rem;
+}
+.database{
+  font-size: 10rem;
+  color: rgb(97, 141, 166);
+  transition: 1s;
+}
+.database:hover{
+  font-size: 11rem;
+}
+.git{
+  font-size: 10rem;
+  color: rgb(26, 30, 32);
+  transition: 1s;
+}
+.git:hover{
+  font-size: 11rem;
+}
+
+
+
+.skill_keyword {
+  padding: 2rem;
+}
