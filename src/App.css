@@ -208,28 +208,34 @@ nav img {
   color: rgb(111, 166, 97);
   transition: 1s;
 }
-.node:hover{
+.node:hover {
   font-size: 11rem;
 }
-.database{
+.database {
   font-size: 10rem;
   color: rgb(97, 141, 166);
   transition: 1s;
 }
-.database:hover{
+.database:hover {
   font-size: 11rem;
 }
-.git{
+.git {
   font-size: 10rem;
   color: rgb(26, 30, 32);
   transition: 1s;
 }
-.git:hover{
+.git:hover {
   font-size: 11rem;
 }
 
-
-
 .skill_keyword {
   padding: 2rem;
+}
+
+/* project  */
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 3rem;
 }
