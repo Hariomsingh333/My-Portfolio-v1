@@ -8,6 +8,7 @@ html {
   height: 100%;
 }
 body {
+  position: relative;
   text-align: center;
   font-family: "Open Sans", sans-serif;
   text-transform: capitalize;
@@ -22,8 +23,10 @@ html {
 /************************ navbar link *********************/
 nav {
   position: sticky;
-  left: 0;
-  bottom: 0;
+  top: 0;
+  z-index: 100;
+  /* left: 0; */
+  /* bottom: 0; */
   width: 100%;
 }
 .nav-link {
