@@ -38,7 +38,7 @@ const Project = () => {
               aria-label="Slide 3"
             ></button>
           </div>
-         
+          <div class="carousel-inner">
             <div class="carousel-item active">
               <div className="pro-img1">
                 <a
