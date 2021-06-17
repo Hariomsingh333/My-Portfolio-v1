@@ -2,6 +2,7 @@ import React from "react";
 import img1 from "../components/ProjectImg/GuessMyNumber.jpg";
 import img2 from "../components/ProjectImg/YtDemo.jpg";
 import img3 from "../components/ProjectImg/band.jpg";
+import img4 from "../components/ProjectImg/colorChange.png";
 
 const Project = () => {
   return (
@@ -37,7 +38,7 @@ const Project = () => {
               aria-label="Slide 3"
             ></button>
           </div>
-          <div class="carousel-inner">
+         
             <div class="carousel-item active">
               <div className="pro-img1">
                 <a
