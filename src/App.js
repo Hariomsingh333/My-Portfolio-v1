@@ -40,22 +40,20 @@ function App() {
           <Route exact path="/About">
             <About />
             <hr />
-            <Footer />
+            {/* <Footer /> */}
           </Route>
 
           {/* project  */}
           <Route exact path="/Project">
             <Project />
-            <Footer />
+            {/* <Footer /> */}
           </Route>
 
-          {/* contact  */}
           <Route exact path="/Contact">
             <Contact />
-            <Footer />
+            {/* <Footer /> */}
           </Route>
         </Switch>
-        {/* <Footer /> */}
       </div>
     </Router>
   );

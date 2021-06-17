@@ -54,7 +54,7 @@ const Skill = () => {
             <h1 className="react">
               <i class="fab fa-react"></i>
             </h1>
-            <p class="card-text">⭐⭐⭐</p>
+            <p class="card-text">⭐⭐⭐⭐</p>
           </div>
         </div>
       </div>
