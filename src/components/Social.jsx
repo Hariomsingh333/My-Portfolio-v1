@@ -9,35 +9,41 @@ const Social = () => {
       <div className="social__icon">
         <div className="social__twitter">
           <span>
-            <a href="https://twitter.com/Hari_om_333">
+            <a href="https://twitter.com/Hari_om_333" target="_blank">
               <i class="fab fa-twitter"></i>
             </a>
           </span>
         </div>
         <div className="social__github">
           <span>
-            <a href="https://github.com/Hariomsingh333">
+            <a href="https://github.com/Hariomsingh333" target="_blank">
               <i class="fab fa-github"></i>
             </a>
           </span>
         </div>
         <div className="social__codepen">
           <span>
-            <a href="https://codepen.io/hari_om_333">
+            <a href="https://codepen.io/hari_om_333" target="_blank">
               <i class="fab fa-codepen"></i>
             </a>
           </span>
         </div>
         <div className="social__sandbox">
           <span>
-            <a href="https://codesandbox.io/dashboard/home?workspace=ccf18c8d-4a63-4b87-9526-5c27e3151519">
+            <a
+              href="https://codesandbox.io/dashboard/home?workspace=ccf18c8d-4a63-4b87-9526-5c27e3151519"
+              target="_blank"
+            >
               <i class="fas fa-code"></i>
             </a>
           </span>
         </div>
         <div className="social__stackoverflow">
           <span>
-            <a href="https://stackoverflow.com/users/15909476/hari-om-singh">
+            <a
+              href="https://stackoverflow.com/users/15909476/hari-om-singh"
+              target="_blank"
+            >
               <i class="fab fa-stack-overflow"></i>
             </a>
           </span>
