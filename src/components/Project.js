@@ -116,6 +116,15 @@ const Project = () => {
           </button>
         </div>
       </div>
+
+      {/* text  */}
+
+      <div className="project__text">
+        <h3>
+          watch my all project in my{" "}
+          <a href="https://github.com/Hariomsingh333">github</a>
+        </h3>
+      </div>
     </div>
   );
 };
