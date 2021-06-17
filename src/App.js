@@ -6,6 +6,7 @@ import About from "./components/About";
 import Skill from "./components/Skill";
 import Project from "./components/Project";
 import Contact from "./components/Contact";
+import Social from "./components/Social";
 
 // react router dom
 
@@ -30,14 +31,16 @@ function App() {
             <Project />
             <hr />
             <Contact />
+            <hr />
+            <Social />
             <Footer />
           </Route>
 
           {/* About  */}
           <Route exact path="/About">
             <About />
-            <Footer />
             <hr />
+            <Footer />
           </Route>
 
           {/* project  */}

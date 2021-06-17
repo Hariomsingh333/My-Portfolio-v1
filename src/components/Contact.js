@@ -2,7 +2,7 @@ import React from "react";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="contact">
       <h1>
         let's collaborate: contact me <i class="far fa-handshake"></i>
       </h1>
